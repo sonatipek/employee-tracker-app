@@ -10,7 +10,7 @@ export default function EmployeeList({ employeeState }) {
       <Title additionalClasses="text-3xl text-center">Employee List</Title>
 
       <Table
-        tableHeads={["No","Employee Name", "Salary", "Operations"]}
+        tableHeads={["No", "Employee Name", "Salary", "Operations"]}
         tableDatas={employee}
         setEmployee={setEmployee}
         additionalClasses={"mt-5"}

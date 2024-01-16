@@ -16,9 +16,9 @@ root.render(
 
     <App />
 
-    <footer className='static bottom-3 w-full text-center py-3'>
+    <footer className="static bottom-3 w-full text-center py-3">
       <Text textType="subtext">
-        Made with ❤ by 
+        Made with ❤ by
         <a
           href="https://www.linkedin.com/in/sonatipek/"
           target="_blank"
