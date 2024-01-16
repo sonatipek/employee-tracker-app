@@ -21,7 +21,7 @@ export default function App() {
       <Title additionalClasses="text-center mb-2 mt-12">Employee Tracker</Title>
 
       <Text textType="subtext" additionalClasses="text-center mb-6">
-        You can use to track your employers!
+        You can use to track of your employees!
       </Text>
 
       <EmployeeForm
