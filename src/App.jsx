@@ -22,10 +22,11 @@ export default function App() {
         <EmployeeList employeeState={[employee, setEmployee]} />
       ) : (
         <Card additionalClasses="mt-12 animate__animated animate__fadeIn ">
-          <Title additionalClasses="text-center text-2xl">You have not added an employee yet!</Title>
+          <Title additionalClasses="text-center md:text-4xl">You have not added an employee yet!</Title>
           <Text textType="subtext" additionalClasses="text-center mt-2">Add your first employee using the form above!</Text>
         </Card>
       )}
     </div>
   );
 }
+  
