@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import EmployeeForm from "./components/Employee/EmployeeForm";
 import EmployeeList from "./components/Employee/EmployeeList";
 import Text from "./components/ui/Text";
@@ -6,7 +6,15 @@ import Title from "./components/ui/Title";
 import Card from "./components/ui/Card";
 
 export default function App() {
-  const [employee, setEmployee] = useState([]);
+  const [employee, setEmployee] = useState(
+    localStorage.getItem("employees")
+      ? JSON.parse(localStorage.getItem("employees"))
+      : []
+  );
+
+  useEffect(() => {
+    localStorage.setItem("employees", JSON.stringify(employee));
+  }, [employee]);
 
   return (
     <div className="mb-12" id="app_container">
