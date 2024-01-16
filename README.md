@@ -6,8 +6,8 @@ I used local storage to store the list and I aimed to make this storage as accur
 
 Please feel free to contact me for any feedback. I'm just starting to learn React and I'm open to all your suggestions. You can find the platforms you can contact me on my profile.
 
+![notebook-mockup-on-desk](https://github.com/sonatipek/employee-tracker-app/assets/80075444/b4291b55-51df-4d5b-98f6-16b001caa371)
 
-![laptop mockup](https://github.com/sonatipek/employee-tracker-app/assets/80075444/5f7d7cc2-df4e-4c91-8c9d-56b4dd9c36f7)
 ## Tech Stack
 ![ReactJS](./public/react.svg)
 ![TailwindCSS](./public/tailwindcss.svg)
@@ -23,7 +23,7 @@ Here are the main features of this simple application I created to make the lear
 5. Adding the "Clear List" button to the view for user convenience, which is not shown when the employee list is more than 2 people in order not to disrupt the minimal UI view
 6. Animations to prevent eye strain from suddenly appearing components
 
-![iMac mockup](https://github.com/sonatipek/employee-tracker-app/assets/80075444/5d2ae32f-2ddd-4033-89bf-36b493dbdbc8)
+![imac-screen-mockup](https://github.com/sonatipek/employee-tracker-app/assets/80075444/da08d474-a85b-403c-8b87-8145fa514a21)
 ## Available Scripts
 
 In the project directory, you can run:
