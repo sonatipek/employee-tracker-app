@@ -1,6 +1,8 @@
 # Employee Tracker - First React App 
 
-React starter project that allowed me to master the concept of "useState hook" in React. I additionally used tailwind.css in the project. Components, the most basic feature of Javascript frameworks, were tried to be used effectively.
+React starter project that allowed me to master the concepts of "useState hook" and "useEffect hook" in React. I also used tailwind.css in the project. I tried to use components effectively, which is the most basic feature of Javascript frameworks.
+
+I used local storage to store the list and I aimed to make this storage as accurate as possible with useEffect.
 
 Please feel free to contact me for any feedback. I'm just starting to learn React and I'm open to all your suggestions. You can find the platforms you can contact me on my profile.
 
