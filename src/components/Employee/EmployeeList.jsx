@@ -6,7 +6,7 @@ export default function EmployeeList({ employeeState }) {
   const [employee, setEmployee] = employeeState;
 
   return (
-    <Card additionalClasses="mt-12 animate__animated animate__fadeIn">
+    <Card additionalClasses="mt-12 animate__animated animate__fadeIn overflow-x-scroll">
       <Title additionalClasses="text-3xl text-center">Employee List</Title>
 
       <Table
